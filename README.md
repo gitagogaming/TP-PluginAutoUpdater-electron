@@ -2,7 +2,7 @@ Plugin Auto Updater
 
 -------
 
-Created for use with TouchPortal NodeAPI and Plugin Developing - https://github.com/spdermn02/touchportal-node-api
+Created for use with TouchPortal NodeSDK and Plugin Developing - https://github.com/spdermn02/touchportal-node-api
 
 
 ### Creates a Browser Window:
