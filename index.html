@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plugin Updater</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #333;
+      color: #fff;
+    }
+    #title-bar {
+      height: 30px;
+      background-color: #555;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+    }
+
+    #headerDiv {
+      /* display: flex; */
+      justify-content: space-between;
+      align-items: center;
+      margin-left:25px;
+      background-color: #333;
+    }
+
+    #headerDiv-Text {
+      font-size: 16px;
+    }
+
+    #progress-bar {
+      width: calc(100% - 50px);
+      background-color: #555;
+      margin: 25px;
+    }
+    #progress {
+      height: 30px;
+      background-color: #4caf50;
+      width: 0%;
+    }
+
+    #info {
+      margin: 25px;
+    }
+    #status {
+      margin: 10px;
+    }
+
+    #download-info {
+      text-align: center;
+      color: #fff;
+    }
+
+    #download-info p {
+      font-size: 16px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div id="title-bar">
+    <span>Plugin Updater</span>
+    <button id="close-button" style="background: none; border: none; color: #fff; font-size: 16px;">✕</button>
+  </div>
+
+  <div id="headerDiv">
+    <p id="headerDiv-Text">Plugin Updater</p>
+  </div>
+
+  <div id="progress-bar">
+    <div id="progress"></div>
+  </div>
+
+  <div id="download-info">
+    <p id="status"></p>
+    <p id="info">Progress: 0 MB / Total: 0 MB </p>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
