@@ -19,4 +19,4 @@ Sends updates about the download progress and completion status to the renderer 
 
 
 ## Example
-https://github.com/user-attachments/assets/3731f2d1-8d2d-49f9-9b60-9be8e8b70323
+![download_example_gitago](https://github.com/user-attachments/assets/0ad23ad8-175d-4e1f-b2e6-3bb1bd37fcb7)
